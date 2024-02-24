@@ -1,13 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Morse code</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORSE TALES</title>
+    <link rel="shortcut icon" href="./logoreal.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/output.css">
+    <style>
+        /* Custom styles */
+        .custom-textarea {
+            resize: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-800 min-h-screen flex items-center justify-center">
+    <div class="max-w-md w-full bg-blue-100 p-8 rounded-lg shadow-lg">
+        <h1 class="text-3xl font-semibold text-center mb-6">Morse Code Translator</h1>
+
+        <div class="mb-6">
+            <label for="englishBox" class="block text-gray-700 mb-2">Enter English Text:</label>
+            <textarea name="Input" cols="30" rows="5" class="w-full border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:border-blue-500 custom-textarea" id="englishBox" placeholder="Type English text here..."></textarea>
+        </div>
+
+        <div class="mb-6">
+            <label for="morseBox" class="block text-gray-700 mb-2">Morse Code:</label>
+            <textarea name="Output" cols="30" rows="5" class="w-full border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:border-blue-500 custom-textarea" id="morseBox" placeholder="Morse code will appear here..." readonly></textarea>
+        </div>
+
+        <div class="text-center">
+            <button id="translateBtn" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">Translate</button>
+            <button id="clearBtn" class="bg-gray-400 hover:bg-gray-500 text-white font-semibold py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300 ml-2">Clear</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
+
+<!-- leke ana hai -->
