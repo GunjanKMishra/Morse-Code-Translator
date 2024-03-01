@@ -4,7 +4,6 @@ This project is a simple web application that allows users to translate English 
 
 ## Table of Contents
 
-- [About](#about)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
