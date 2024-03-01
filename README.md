@@ -21,7 +21,7 @@ This project is a simple web application that allows users to translate English 
 ## Technologies Used
 
 - HTML
-- CSS (with Tailwind CSS framework)
+- CSS (Tailwind CSS)
 - JavaScript
 
 ## How to Use
